@@ -60,12 +60,27 @@ div.small-col p{
     color: #0a1527;
 }
 
+section.wizard img{
+    margin-left: 10rem;
+}
+
 div.big-col img{
     width: 50rem;
+   
+}
+
+.frog,
+.wizard,
+.alien{
+    margin-bottom: 10rem;
 }
 
 .bg-grey{
     background-color: #d2d2d2;
+}
+
+.text-white{
+    color: white;
 }
 
 
@@ -140,9 +155,18 @@ nav ul.main-menu li{
 
 
 div.big-content{
-    background-color: #228a22;
-    height: 800px;
+    /* background-color: #228a22; */
+    /* height: 800px; */
     width: 100%;
+    text-align: center;
+}
+
+div.big-content img{
+    width: 70rem;
+}
+
+section.king{
+    padding: 40rem 0;
 }
 
 footer{
@@ -207,27 +231,24 @@ div#jumbotron .jumbo-content{
     text-align: center;
 }
 
-div#jumbotron h1{
+.style-h{
     font-size: 2.8rem;
-    color: white;
     margin-bottom: 1.5rem;
 }
 
-div#jumbotron p{
+.style-p{
     line-height: 1.6;
-    color: white;
     font-size: 1.18rem;
     margin-bottom: 1rem;
 }
 
 
 
-div#jumbotron button{
+.style-button{
     font-size: 1.1rem;
     border: none;
     border-radius: 2rem;
     padding: .8rem;
-    background-color: white;
 }
 
 div#jumbotron button:last-child{
