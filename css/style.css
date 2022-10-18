@@ -82,8 +82,9 @@ div.big-col img{
 .text-white{
     color: white;
 }
-
-
+.bg-violet{
+    background-color:  #7289da;
+}
 header{
     background-color: #255ee9;
     align-items: center;
@@ -168,6 +169,17 @@ div.big-content img{
 section.king{
     padding: 40rem 0;
 }
+.big-content h3{
+    font-size: 2.2rem;
+    background-image: url('../img/stars.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 45rem;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
 
 footer{
     padding: 2rem;
@@ -175,26 +187,26 @@ footer{
 
 footer section.footer-top{
     height: 500px;
-    background-color: #7fffd4;
+    /* background-color: #7fffd4; */
 }
 
 footer section.footer-top aside{
     width: 30%;
     height: 100%;
-    background-color: #f08080;
+    /* background-color: #f08080; */
     
 }
 
 footer section.footer-top nav{
     width: 70%;
     height: 100%;
-    background-color: #20b2aa;
+    /* background-color: #20b2aa; */
 }
 
 footer .footer-top nav ul{
     width: 25%;
     height: 100%;
-    border: 2px dashed white;
+    /* border: 2px dashed white; */
 }
 
 footer hr{
@@ -203,18 +215,53 @@ footer hr{
 
 footer section.footer-bottom{
     height: 100px;
-    background-color: #7fffd4;
+    /* background-color: #7fffd4; */
     justify-content: space-between;
 }
 
 footer .footer-logo,
 footer .footer-button{
-    background-color: rgb(246, 136, 154);
+    /* background-color: rgb(246, 136, 154); */
     padding: .5rem;
     font-size: 1.25rem;
 }
 
+section.footer-top h4{
+    font-size: 3rem;
+    color: #7289da;
+    margin-bottom: 1.5rem;
+}
 
+section.footer-top img{
+    width: 5rem;
+    width: 1.5rem;
+    vertical-align: middle;
+}
+
+section.footer-top select{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+section.footer-top .fa-brands{
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+section.footer-top ul li{
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+section.footer-top h5{
+    font-size: 1rem;
+    color: #7289da;
+    margin-top: 0.5rem;
+}
 
 div#jumbotron{
     height: 60rem;
@@ -245,7 +292,7 @@ div#jumbotron .jumbo-content{
 
 
 .style-button{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     border: none;
     border-radius: 2rem;
     padding: .8rem;
