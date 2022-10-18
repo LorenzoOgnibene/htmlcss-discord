@@ -18,6 +18,7 @@ body{
     align-items: center;
 }
 
+
 .container{
     width: 62.5%;
     margin: 0 auto;
@@ -35,13 +36,32 @@ body{
 
 .big-col{
     width: 65%;
-    background-color: #1e8ffe;
+    /* background-color: #1e8ffe; */
 
 }
 
 .small-col{
-    width: 35%;
-    background-color: #febfca;
+    width: 25%;
+}
+
+div.small-col{
+    text-align: left;
+    
+}
+
+div.small-col h2{
+    font-size: 3rem;
+    margin: 2.5rem 0 3rem 0;
+}
+
+div.small-col p{
+    font-size: 1.13rem;
+    line-height: 1.6;
+    color: #0a1527;
+}
+
+div.big-col img{
+    width: 50rem;
 }
 
 .bg-grey{
