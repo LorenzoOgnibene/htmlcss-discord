@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -18,35 +19,23 @@ body{
     align-items: center;
 }
 
-
 .container{
     width: 62.5%;
     margin: 0 auto;
     height: 100%;
 }
 
-.crazy-bordered{
-    border: 2px dashed black;
-}
-
-
 .col{
     height: 480px;
 }
 
 .big-col{
-    width: 65%;
-    /* background-color: #1e8ffe; */
-
+    width: 70%;
 }
 
 .small-col{
     width: 25%;
-}
-
-div.small-col{
     text-align: left;
-    
 }
 
 div.small-col h2{
@@ -66,7 +55,6 @@ section.wizard img{
 
 div.big-col img{
     width: 50rem;
-   
 }
 
 .frog,
@@ -82,47 +70,43 @@ div.big-col img{
 .text-white{
     color: white;
 }
+
 .bg-violet{
     background-color:  #7289da;
 }
+
 header{
     background-color: #255ee9;
     align-items: center;
-    /* height: 80px; */
     flex-direction: column;
 }
 
 main section {
     height: 600px;
-    /* background-color: aqua; */
 }
 
 footer{
     background-color: #23272a;
+    padding: 2rem;
 }
 
 a{
     text-decoration: none;
     color: white;
-    
-}
-main section.king {
-    height: 900px;
-    /* background-color: aqua; */
 }
 
+main section.king {
+    height: 900px;
+}
 
 nav.header-top{
     height: 45px;
     margin: 1rem;
-    /* line-height: 40px; */
 }
 
 nav div.logo,
 nav div.login{
     flex-basis: 20%;
-    /* width: 20%; */
-    /* background-color: orange; */
     padding:.75rem;
 }
 
@@ -140,10 +124,8 @@ nav div.login button{
     background-color: white;
 }
 
-
 nav ul.main-menu{
     flex-basis: 80%;
-    /* background-color: orange; */
     padding:.75rem;
     text-align: center;
 }
@@ -154,10 +136,7 @@ nav ul.main-menu li{
     font-size: 1.15rem;
 }
 
-
 div.big-content{
-    /* background-color: #228a22; */
-    /* height: 800px; */
     width: 100%;
     text-align: center;
 }
@@ -179,34 +158,23 @@ section.king{
     margin-bottom: 3rem;
 }
 
-
-
-footer{
-    padding: 2rem;
-}
-
 footer section.footer-top{
     height: 500px;
-    /* background-color: #7fffd4; */
 }
 
 footer section.footer-top aside{
     width: 30%;
-    height: 100%;
-    /* background-color: #f08080; */
-    
+    height: 100%;   
 }
 
 footer section.footer-top nav{
     width: 70%;
     height: 100%;
-    /* background-color: #20b2aa; */
 }
 
 footer .footer-top nav ul{
     width: 25%;
     height: 100%;
-    /* border: 2px dashed white; */
 }
 
 footer hr{
@@ -215,13 +183,11 @@ footer hr{
 
 footer section.footer-bottom{
     height: 100px;
-    /* background-color: #7fffd4; */
     justify-content: space-between;
 }
 
 footer .footer-logo,
 footer .footer-button{
-    /* background-color: rgb(246, 136, 154); */
     padding: .5rem;
     font-size: 1.25rem;
 }
@@ -230,6 +196,7 @@ section.footer-top h4{
     font-size: 3rem;
     color: #7289da;
     margin-bottom: 1.5rem;
+    margin-right: 1rem;
 }
 
 section.footer-top img{
@@ -264,17 +231,13 @@ section.footer-top h5{
 }
 
 div#jumbotron{
-    height: 60rem;
+    height: 42rem;
     width: 100%;
     background-image: url('../img/jumbo.png');
     background-size: cover;
-    
 }
 
 div#jumbotron .jumbo-content{
-    /* width: 45%;
-    height: 350px;
-    background-color: #ed81ed; */
     text-align: center;
 }
 
@@ -288,8 +251,6 @@ div#jumbotron .jumbo-content{
     font-size: 1.18rem;
     margin-bottom: 1rem;
 }
-
-
 
 .style-button{
     font-size: 1.2rem;
@@ -306,6 +267,5 @@ div#jumbotron button:last-child{
 
 button>span{
     font-weight: bold;
-    vertical-align: baseline;
-    
+    vertical-align: baseline; 
 }
