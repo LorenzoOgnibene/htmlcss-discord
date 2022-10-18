@@ -114,7 +114,7 @@ nav ul.main-menu{
 
 nav ul.main-menu li{
     display: inline;
-    margin: 0 0.9rem;
+    margin: 0 1.1rem;
     font-size: 1.15rem;
 }
 
@@ -138,7 +138,7 @@ footer section.footer-top aside{
     width: 30%;
     height: 100%;
     background-color: #f08080;
-
+    
 }
 
 footer section.footer-top nav{
@@ -173,15 +173,51 @@ footer .footer-button{
 
 
 div#jumbotron{
-    background-color: #00008a;
-    height: 450px;
+    height: 60rem;
     width: 100%;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    
 }
 
 div#jumbotron .jumbo-content{
-    width: 45%;
+    /* width: 45%;
     height: 350px;
-    background-color: #ed81ed;
+    background-color: #ed81ed; */
+    text-align: center;
+}
+
+div#jumbotron h1{
+    font-size: 2.8rem;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+div#jumbotron p{
+    line-height: 1.6;
+    color: white;
+    font-size: 1.18rem;
+    margin-bottom: 1rem;
 }
 
 
+
+div#jumbotron button{
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 2rem;
+    padding: .8rem;
+    background-color: white;
+}
+
+div#jumbotron button:last-child{
+    background-color: #23272a;
+    color: white;
+    margin-left: 2rem;
+}
+
+button>span{
+    font-weight: bold;
+    vertical-align: baseline;
+    
+}
