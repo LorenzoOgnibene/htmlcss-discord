@@ -82,7 +82,7 @@ header{
 }
 
 main section {
-    height: 600px;
+    height: 100%;
 }
 
 footer{
@@ -157,10 +157,10 @@ section.king{
     padding-top: 3rem;
     margin-bottom: 3rem;
 }
-
+/* 
 footer section.footer-top{
     height: 500px;
-}
+} */
 
 footer section.footer-top aside{
     width: 30%;
@@ -182,7 +182,7 @@ footer hr{
 }
 
 footer section.footer-bottom{
-    height: 100px;
+    /* height: 100px; */
     justify-content: space-between;
 }
 
